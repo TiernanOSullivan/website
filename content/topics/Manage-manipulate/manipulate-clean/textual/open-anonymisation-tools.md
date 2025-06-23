@@ -97,9 +97,9 @@ In this example:
 
 - We imported the Anonymize class from the anonymoUUS package
 
-- We created a dictionary that mapping the text we want to replace with its replacement values.
+- We created a dictionary mapping the text we want to replace with its replacement values.
 
-- We instantiated the Anonymize class as 'anonymize_dict'allowing us to use the substitute() method
+- We instantiated the Anonymize class as 'anonymize_dict' allowing us to use the substitute() method
 
 - We assigned the file path of the original documents to the variable 'original_file'
 
@@ -110,7 +110,7 @@ In this example:
 ## Replacing text using a CSV file
 
 In the previous example, the keys and values of a dictionary written in the python console instructed what keywords to replace and the substitutions to use for each keyword. 
-Rather than writing a dictionary in the console, we can create a csv file that records the text and its replacement. Add a new line. Testing another line.
+Rather than writing a dictionary in the console, we can create a csv file that records the text and its replacement.
 AnonymoUUs will will interpret a csv file as a dictionary of keywords and their substitutes. 
 
 - When AnonymoUUs reads a csv file it assumes it consists of two columns
@@ -158,6 +158,8 @@ will pick up on a string that consists of:
 - .
 
 - [letters a-z or A-Z] which is at least two characters long
+
+For more information regarding regular expressions visit [Learn Regular Expressions](https://tilburgsciencehub.com/topics/Manage-manipulate/manipulate-clean/textual/learn-regular-expressions/)
 
 To apply this, we could write this key in our dictionary or as an entry in column 1 of a CSV.
 
