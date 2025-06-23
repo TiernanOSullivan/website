@@ -284,3 +284,5 @@ Substitute method in AnonymoUUS - log of changes(?) e.g. number of occurances
 Any other methods or scripts that could be added to improve testing/validation
 Testing
 
+Rather than replacements or redaction, can AnonymoUUS apply perturbation to a range of variables - e.g. perturbation of any string preceeded by a $ or €
+
