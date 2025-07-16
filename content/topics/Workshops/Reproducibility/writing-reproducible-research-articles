@@ -1,0 +1,22 @@
+---
+title: "Writing Reproducible Research Articles"
+description: "Two day workshop on integrating good practices into your research writing. For all writers who use data, software, or need to consider journal templates."
+keywords: "reproducibility, markdown, quarto, positron"
+draft: false
+weight: 2
+author: "Tiernan O'Sullivan"
+aliases:
+  - /reproducible-research-articles
+---
+
+This document contains:
+
+- installation instructions to set up the programs and tools you will used during the workshop;
+
+- an outline of the topics the instructor will discuss during the workshop; 
+
+- the exercises you will work on during the workshop.
+
+Please go through the setting up steps before coming to the workshop and keep this document ready during the workshop.
+
+## ⚙️ Setting up (15 to 30 minutes) {.unnumbered}
