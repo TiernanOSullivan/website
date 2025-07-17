@@ -1,5 +1,5 @@
 ---
-title: "Reproducibility"
+title: "Research Data Office workshops"
 date: 2025-07-16T15:01:14+05:30
 draft: false
 weight: 10

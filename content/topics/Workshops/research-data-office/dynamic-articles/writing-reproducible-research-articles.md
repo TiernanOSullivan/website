@@ -6,7 +6,6 @@ draft: false
 weight: 2
 author: "Tiernan O'Sullivan"
 aliases:
-  - /reproducible-research-articles
 ---
 
 This document contains:

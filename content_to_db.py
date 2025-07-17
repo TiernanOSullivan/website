@@ -282,6 +282,10 @@ def parse_md_file(file_path):
 # Returns:
 # - None -> Insert article into db
 def process_article(md_file_path, parent_id):
+    log_msg = f"[INFO] Processing article: {md_file_path}"
+    print(log_msg)
+    with open("debug_log.txt", "a") as log_file:
+        log_file.write(log_msg + "\n")
     with open(md_file_path, 'r', encoding='utf-8') as md_file:
         content = md_file.read()
         title = re.search(r'title: "(.*?)"', content)

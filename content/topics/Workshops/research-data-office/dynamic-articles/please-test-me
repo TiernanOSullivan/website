@@ -1,0 +1,26 @@
+---
+title: "SPSS Data in R"
+description: "Learn how to import, export and work with SPSS data in R"
+keywords: "R, SPSS, sav, labelled data, metadata, categorical, ordinal, nominal, interval, dplyr"
+weight: 100000
+date: 2023/07/07
+draft: false
+author: "Stefan Kirsch"
+authorlink: "https://www.linkedin.com/in/stefan-kirsch-6b407078/"
+aliases:
+  - topics/Workshops/Reproducibility/please-test-me
+---
+
+# Learning goals
+
+- Read, process and manipulate SPSS (or other labelled) data in R while maintaining the labels
+- Learn the most common operations on labels
+- Enable you to seamlessly work with both R and SPSS so you can split your workflow between the two as you (or your teammates) wish
+
+# Overview
+
+Researchers often work with both R and SPSS, so it is helpful to work with `.sav` files in R. While working with SPSS data in R is not particularly hard, it can be quite confusing to chose the right approach. There are several packages available on [CRAN](https://cran.r-project.org/index.html) that offer more or less the same functionality, but some of them don't work well in conjunction with each other and most of them don't offer all the features you might need. This building block is intended to guide you through the tasks you will find yourself doing most often when working with SPSS data in R.
+
+## Required packages
+
+For this workflow, we'll need two packages: the ubiquitous `tidyverse` as well as `sjlabelled`.
